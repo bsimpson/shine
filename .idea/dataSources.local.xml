@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails shine: production" uuid="2d9df7d8-a9d3-44b9-90e6-175a6048ac93">
+      <user-name>shine</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff9dfe2dfe3dfe4dfefdff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+    <data-source name="Rails shine: development" uuid="68797e18-94aa-46e8-842a-ed8818c25eb3">
+      <first-sync>true</first-sync>
+      <user-name>shine</user-name>
+      <user-password>dfd9dfc2dfc3dfc4dfcf</user-password>
+    </data-source>
+    <data-source name="Rails shine: test" uuid="466104c1-c69c-40b3-ab54-675094e0bbd0" />
+  </component>
+</project>
