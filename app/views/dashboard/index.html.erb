@@ -5,4 +5,5 @@
 <section>
   <p>Future home of dashboard</p>
   <p>Current user: <%= current_user.email %></p>
+  <%= link_to 'Log out', destroy_user_session_path, method: :delete %>
 </section>
