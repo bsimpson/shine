@@ -1,0 +1,18 @@
+<article ng-app="angular_test">
+  <header>
+    <h1 ng-if="name">Hello {{name}}</h1>
+  </header>
+  <section>
+    <form action="#" class="form-inline">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="type"
+               class="form-control"
+               name="name"
+               placeholder="Enter your name"
+               autofocus
+               ng-model="name">
+      </div>
+    </form>
+  </section>
+</article>
