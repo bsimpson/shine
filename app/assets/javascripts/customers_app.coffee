@@ -6,6 +6,8 @@ CustomerSearchController = ($scope, $http) ->
   page = 0
 
   $scope.search = (searchTerm) ->
+    return if searchTerm.length < 3
+
     $http.get '/customers.json',
       params:
         keywords: searchTerm

@@ -5,19 +5,13 @@
 
   <section class="search-form">
     <form>
-        <div class="input-group input-group-lg">
-          <%= label_tag :keywords, nil, class: 'sr-only' %>
-          <input type="text"
-                 name="keywords"
-                 class="form-control input-lg"
-                 placeholder="First Name, Last Name, or Email Address"
-                 ng-model="keywords">
-          <span class="input-group-btn">
-          <button class="btn btn-primary btn-lg" ng-click="search(keywords)">
-            Find Customers
-          </button>
-      </span>
-        </div>
+      <%= label_tag :keywords, nil, class: 'sr-only' %>
+      <input type="text"
+             name="keywords"
+             class="form-control input-lg"
+             placeholder="First Name, Last Name, or Email Address"
+             ng-model="keywords"
+             ng-change="search(keywords)">
     </form>
     <h1 class="searchedFor" ng-if="searchedFor">
       <small>Searched for:</small>
