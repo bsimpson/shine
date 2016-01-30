@@ -15,10 +15,16 @@ class CustomersController < ApplicationController
     else
       customers = []
     end
-    render template: 'customers/index', locals: {
-        customers: customers,
-        keywords: keywords,
-        page: page
-    }
+
+    respond_to do |format|
+      format.html do
+        render template: 'customers/index', locals: {
+            customers: customers,
+            keywords: keywords,
+            page: page
+        }
+      end
+      format.json { render json: customers }
+    end
   end
 end
